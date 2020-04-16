@@ -39,6 +39,7 @@ if(CUDA_FOUND)
   # add debugging to CUDA NVCC flags.  For NVidia's NSight tools.
   set(CUDA_NVCC_FLAGS_DEBUG ${CUDA_NVCC_FLAGS_DEBUG} "-G")
 
+  add_subdirectory (Lesson_Code_Snippets/Lesson_1_code_Snippets)
   add_subdirectory (assignments/HW1)
   add_subdirectory (assignments/HW2)
   add_subdirectory (assignments/HW3)
